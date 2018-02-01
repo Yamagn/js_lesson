@@ -9,18 +9,18 @@
 <body>
     <script>
         /*
-                                  関数: 複数の処理
+                                    即時関数
 
-                                  function 関数名(引数) {
-                                      処理
-                                  }
-                                */
+                        (function hello(name) {
+                            console.log("hello " + name);
+                        })("Tom")
+                        */
 
-        function hello(name) {
-            return "hello " + name;
-        }
-        var greet = hello("Tom");
-        console.log(greet);
+        (function() {
+            var x = 10;
+            var y = 20;
+            console.log(x + y);
+        })()
     </script>
 </body>
 
