@@ -56,8 +56,21 @@
     - Date
 */
 
-var s = "hoge";
-// var s = new String("hoge"); // mdn string
-console.log(s.length); //文字数
-console.log(s.replace("h", "H")); // 置換
-console.log(s.substr(1, 3)); //部分参照 (何文字目から,何文字)
+// String
+// var s = "hoge";
+// // var s = new String("hoge"); // mdn string
+// console.log(s.length); //文字数
+// console.log(s.replace("h", "H")); // 置換
+// console.log(s.substr(1, 3)); //部分参照 (何文字目から,何文字)
+
+var a = new Array(100, 300, 200);
+// var a = [100, 300, 200]
+console.log(a.length);
+// unshift -> array <- push
+// shift   -> array -> pop
+
+a.push(500);
+console.log(a);
+// splice 途中に追加
+a.splice(1, 2, 800, 1000); // (追加削除をしたい場所, 削除した要素の数) 
+console.log(a);
