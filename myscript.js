@@ -63,14 +63,31 @@
 // console.log(s.replace("h", "H")); // 置換
 // console.log(s.substr(1, 3)); //部分参照 (何文字目から,何文字)
 
-var a = new Array(100, 300, 200);
+// Array
+// var a = new Array(100, 300, 200);
 // var a = [100, 300, 200]
-console.log(a.length);
+// console.log(a.length);
 // unshift -> array <- push
 // shift   -> array -> pop
 
-a.push(500);
-console.log(a);
+// a.push(500);
+// console.log(a);
 // splice 途中に追加
-a.splice(1, 2, 800, 1000); // (追加削除をしたい場所, 削除した要素の数) 
-console.log(a);
+// a.splice(1, 2, 800, 1000); // (追加削除をしたい場所, 削除した要素の数) 
+// console.log(a);
+
+// Math
+
+console.log(Math.PI);
+console.log(Math.ceil(5, 3));
+console.log(Math.floor(5, 3));
+console.log(Math.round(5, 3));
+console.log(Math.random());
+
+// Date
+
+var d = new Date();
+// var d = new Date(2018, 3, 27, 17, 03, 30);
+console.log(d.getFullYear());
+console.log(d.getMonth());
+console.log(d.getTime());
