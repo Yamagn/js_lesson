@@ -78,16 +78,24 @@
 
 // Math
 
-console.log(Math.PI);
-console.log(Math.ceil(5, 3));
-console.log(Math.floor(5, 3));
-console.log(Math.round(5, 3));
-console.log(Math.random());
+// console.log(Math.PI);
+// console.log(Math.ceil(5, 3));
+// console.log(Math.floor(5, 3));
+// console.log(Math.round(5, 3));
+// console.log(Math.random());
 
 // Date
 
-var d = new Date();
+// var d = new Date();
 // var d = new Date(2018, 3, 27, 17, 03, 30);
-console.log(d.getFullYear());
-console.log(d.getMonth());
-console.log(d.getTime());
+// console.log(d.getFullYear());
+// console.log(d.getMonth());
+// console.log(d.getTime());
+
+// DOM
+// console.dir(window); // windowのオブジェクト
+// console.log(window.outerHeight);
+// window.location.href = "http://twitter.com";
+// window.document - 今開いているページ - documentのみでも可能
+
+// document object model (DOM)
