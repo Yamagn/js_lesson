@@ -27,8 +27,20 @@
 // score[2] = 400;
 // console.log(score);
 
-var m = [
-    [1, 2, 3],
-    [4, 5, 6]
-];
-console.log(m[1][1]);
+// var m = [
+//     [1, 2, 3],
+//     [4, 5, 6]
+// ];
+// console.log(m[1][1]);
+
+//オブジェクト
+//   名前と値 
+var user = {
+    email: "hoge@gmail.com", // プロパティ
+    score: 80
+};
+
+console.log(user["email"]);
+console.log(user.email);
+user.score = 100;
+console.log(user.score);
