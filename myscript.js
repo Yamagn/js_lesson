@@ -37,10 +37,14 @@
 //   名前と値 
 var user = {
     email: "hoge@gmail.com", // プロパティ
-    score: 80
+    score: 80,
+    greet: function(name) { // メソッド
+        console.log("hello, " + name + " from " + this.email);
+    }
 };
 
-console.log(user["email"]);
-console.log(user.email);
-user.score = 100;
-console.log(user.score);
+// console.log(user["email"]);
+// console.log(user.email);
+// user.score = 100;
+// console.log(user);
+user.greet("Tom");
