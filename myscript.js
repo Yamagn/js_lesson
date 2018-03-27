@@ -35,16 +35,29 @@
 
 //オブジェクト
 //   名前と値 
-var user = {
-    email: "hoge@gmail.com", // プロパティ
-    score: 80,
-    greet: function(name) { // メソッド
-        console.log("hello, " + name + " from " + this.email);
-    }
-};
+// var user = {
+//     email: "hoge@gmail.com", // プロパティ
+//     score: 80,
+//     greet: function(name) { // メソッド
+//         console.log("hello, " + name + " from " + this.email);
+//     }
+// };
 
 // console.log(user["email"]);
 // console.log(user.email);
 // user.score = 100;
 // console.log(user);
-user.greet("Tom");
+// user.greet("Tom");
+
+/* 組み込みオブジェクト
+    - String
+    - Array
+    - Math
+    - Date
+*/
+
+var s = "hoge";
+// var s = new String("hoge"); // mdn string
+console.log(s.length); //文字数
+console.log(s.replace("h", "H")); // 置換
+console.log(s.substr(1, 3)); //部分参照 (何文字目から,何文字)
