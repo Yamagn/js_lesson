@@ -14,7 +14,8 @@
 
 /* * {　color: skyblue;　} */
 
-h1 {
+
+/* h1 {
     color: skyblue;
 }
 
@@ -24,4 +25,40 @@ h1 {
 
 .points {
     color: violet;
-}
+} */
+
+
+/*
+セレクタ
+a,b
+a b
+a > b
+a + b
+ab
+*/
+
+
+/* h1,
+p {
+    color: skyblue;
+} */
+
+
+/* div span {
+    color: skyblue;
+} */
+
+
+/* div>span {
+    color: skyblue;
+} */
+
+
+/* p+p {
+    color: skyblue;
+} */
+
+
+/* p.points {
+    color: skyblue;
+} */
