@@ -232,5 +232,15 @@ Body {
     text-decoration: none;
     background-color: lightseagreen;
     border-radius: 5px; /*角を丸くする*/
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 4px 4px 8px rgba(255, 255, 255, 0.6),
+    inset -4px -4px 4px rgba(0, 0, 0, 0.4),
+    4px 4px 8px rgba(0, 0, 0, 0.6);/*右下を黒く、左上を白くする。右下に影をつける。*/
+}
+
+.button a:hover {
+    background-color: mediumaquamarine;/*色をmediumaquamarineに変更*/
+    box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.6),/*中影を付加*/
+    inset -2px -2px 4px rgba(0, 0, 0, 0.4),
+    2px 2px 4px rgba(0, 0, 0, 0.8);/*影を付加*/
+    transform: translateY(2px);/*Y軸を下に2下げる*/
 }
