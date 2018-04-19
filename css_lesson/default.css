@@ -183,25 +183,25 @@ a {
         - Blue
 */
 
-body {
+/* body {
     font-size: 16px;
-}
+} */
 
-h1 {
+/* h1 {
     font-size: 2em;
 }
 
 
 /* 32px */
 
-h2 {
+/* h2 {
     font-size: 150%;
-}
+}  */
 
 
 /* 24px */
 
-h1 {
+/* h1 {
     color: blue;
 }
 
@@ -215,4 +215,22 @@ h1 {
 
 h1 {
     color: rgb(0%, 0%, 100%);
+} */
+
+Body {
+    background: white;
+    font: 30px sans-serif;
+}
+
+.button a {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: lightseagreen;
+    border-radius: 5px; /*角を丸くする*/
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
 }
